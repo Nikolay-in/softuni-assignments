@@ -1,0 +1,291 @@
+01.PB Javascript/bau.js
+01.PB Javascript/boat.js
+01.PB Javascript/books.js
+01.PB Javascript/building.js
+01.PB Javascript/cake.js
+01.PB Javascript/coins.js
+01.PB Javascript/days.js
+01.PB Javascript/deerOfSanta.js
+01.PB Javascript/demo.js
+01.PB Javascript/exam.js
+01.PB Javascript/examm.js
+01.PB Javascript/excursion.js
+01.PB Javascript/finalCompetition.js
+01.PB Javascript/godzila.js
+01.PB Javascript/gymnastics.js
+01.PB Javascript/hairsaloon.js
+01.PB Javascript/histogram.js
+01.PB Javascript/holiday.js
+01.PB Javascript/hotel.js
+01.PB Javascript/house.js
+01.PB Javascript/isprime.js
+01.PB Javascript/jessy.js
+01.PB Javascript/journey.js
+01.PB Javascript/lilly.js
+01.PB Javascript/lunch.js
+01.PB Javascript/movie.js
+01.PB Javascript/movieratings.js
+01.PB Javascript/moving.js
+01.PB Javascript/nested.js
+01.PB Javascript/numbers.js
+01.PB Javascript/numbers1to100.js
+01.PB Javascript/oddEven.js
+01.PB Javascript/ontime.js
+01.PB Javascript/oscars.js
+01.PB Javascript/outfit.js
+01.PB Javascript/pc.js
+01.PB Javascript/pincodes.js
+01.PB Javascript/pyramid.js
+01.PB Javascript/salary.js
+01.PB Javascript/special.js
+01.PB Javascript/swimming.js
+01.PB Javascript/tennis.js
+01.PB Javascript/test.js
+01.PB Javascript/tickets.js
+01.PB Javascript/touristShop.js
+01.PB Javascript/trainer.js
+01.PB Javascript/travel.js
+01.PB Javascript/Trekking.js
+01.PB Javascript/vacancy.js
+01.PB Javascript/verparking.js
+01.PB Javascript/walking.js
+01.PB Javascript/words.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/01.DigitswithWords.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/02.PrimeNumberChecker.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/03.Cone.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/04.Biggestof3Numbers.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/05.BinarytoDecimal.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/06.ChessBoard.js
+02.Fundamentals JS/09.Data Types and Variables - More Exercise/07.TriangleArea.js
+02.Fundamentals JS/11.Arrays Lab/01.SumFirstandLastArrayElements.js
+02.Fundamentals JS/11.Arrays Lab/02.DayofWeek.js
+02.Fundamentals JS/11.Arrays Lab/03.ReverseanArrayofNumbers.js
+02.Fundamentals JS/11.Arrays Lab/04.ReverseinPlace.js
+02.Fundamentals JS/11.Arrays Lab/05.SumEvenNumbers.js
+02.Fundamentals JS/11.Arrays Lab/06.EvenandOddSubtraction.js
+02.Fundamentals JS/11.Arrays Lab/07.EqualArrays.js
+02.Fundamentals JS/11.Arrays Lab/08.CondenseArraytoNumber.js
+02.Fundamentals JS/12.Arrays - Exercise/01.AddandSubtract.js
+02.Fundamentals JS/12.Arrays - Exercise/02.CommonElements.js
+02.Fundamentals JS/12.Arrays - Exercise/03.MergeArrays.js
+02.Fundamentals JS/12.Arrays - Exercise/04.ArrayRotation.js
+02.Fundamentals JS/12.Arrays - Exercise/05.MaxNumber.js
+02.Fundamentals JS/12.Arrays - Exercise/06.EqualSums.js
+02.Fundamentals JS/12.Arrays - Exercise/07.MaxSequenceofEqualElements.js
+02.Fundamentals JS/12.Arrays - Exercise/08.MagicSum.js
+02.Fundamentals JS/12.Arrays - Exercise/09.DungeonestDark.js
+02.Fundamentals JS/12.Arrays - Exercise/10.Ladybugs.js
+02.Fundamentals JS/12.Arrays - More Exercise/01.PrintN-thElement.js
+02.Fundamentals JS/12.Arrays - More Exercise/02.AddandRemove.js
+02.Fundamentals JS/12.Arrays - More Exercise/03.RotateArray.js
+02.Fundamentals JS/12.Arrays - More Exercise/04.NonDecreasingSubset.js
+02.Fundamentals JS/12.Arrays - More Exercise/05.TseamAccount.js
+02.Fundamentals JS/12.Arrays - More Exercise/06.MagicMatrices.js
+02.Fundamentals JS/12.Arrays - More Exercise/07.SpiralMatrix.js
+02.Fundamentals JS/12.Arrays - More Exercise/08.DiagonalAttack.js
+02.Fundamentals JS/12.Arrays - More Exercise/09.Orbit.js
+02.Fundamentals JS/14.Functions - Lab/01.FormatGrade.js
+02.Fundamentals JS/14.Functions - Lab/02.MathPower.js
+02.Fundamentals JS/14.Functions - Lab/03.RepeatString.js
+02.Fundamentals JS/14.Functions - Lab/04.Orders.js
+02.Fundamentals JS/14.Functions - Lab/05.SimpleCalculator.js
+02.Fundamentals JS/14.Functions - Lab/06.SignCheck.js
+02.Fundamentals JS/15.Functions - Exercise/01.SmallestofThreeNumbers.js
+02.Fundamentals JS/15.Functions - Exercise/02.AddandSubtract.js
+02.Fundamentals JS/15.Functions - Exercise/03.CharactersinRange.js
+02.Fundamentals JS/15.Functions - Exercise/04.OddAndEvenSum.js
+02.Fundamentals JS/15.Functions - Exercise/05.PalindromeIntegers.js
+02.Fundamentals JS/15.Functions - Exercise/06.PasswordValidator.js
+02.Fundamentals JS/15.Functions - Exercise/07NxNMatrix.js
+02.Fundamentals JS/15.Functions - Exercise/08.PerfectNumber.js
+02.Fundamentals JS/15.Functions - Exercise/09.LoadingBar.js
+02.Fundamentals JS/15.Functions - Exercise/10.FactorialDivision.js
+02.Fundamentals JS/15.Functions - More Exercise/01.CarWash.js
+02.Fundamentals JS/15.Functions - More Exercise/02.NumberModification.js
+02.Fundamentals JS/15.Functions - More Exercise/03.PointsValidation.js
+02.Fundamentals JS/15.Functions - More Exercise/04.RadioCrystals.js
+02.Fundamentals JS/15.Functions - More Exercise/05.PrintDNA.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/01.SumFirstandLast.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/02.NegativeorPositiveNumbers.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/03.FirstandLastKNumbers.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/04.LastKNumbersSequance.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/05.ProcessOddNumbers.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/06.SmallestTwoNumbers.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/07.ListOfProducts.js
+02.Fundamentals JS/17.Arrays Advanced - Lab/08.ArrayManipulations.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/01.Train.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/02.DistinctArray.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/03.HouseParty.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/04.Sorting.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/05.SortanArrayby2Criteria.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/06.BombNumbers.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/07.SearchforaNumber.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/08.ArrayManipulator.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/09.GladiatorInventory.js
+02.Fundamentals JS/18.Arrays Advanced - Exercise/10.BuildaWall.js
+02.Fundamentals JS/18.Arrays Advanced - More Exercise/01.EqualNeighbors.js
+02.Fundamentals JS/18.Arrays Advanced - More Exercise/02.BunnyKill.js
+02.Fundamentals JS/18.Arrays Advanced - More Exercise/03.AirPollution.js
+02.Fundamentals JS/18.Arrays Advanced - More Exercise/04.JansNotation.js
+02.Fundamentals JS/18.Arrays Advanced - More Exercise/05.RosettaStone.js
+02.Fundamentals JS/20.Mid exam/01.Mid Exam Retake/01. Computer Store.js
+02.Fundamentals JS/20.Mid exam/01.Mid Exam Retake/02. The Lift.js
+02.Fundamentals JS/20.Mid exam/01.Mid Exam Retake/03. Memory Game.js
+02.Fundamentals JS/20.Mid exam/02.Mid Exam/01.SoftUniReception.js
+02.Fundamentals JS/20.Mid exam/02.Mid Exam/02.ArrayModifier.js
+02.Fundamentals JS/20.Mid exam/02.Mid Exam/03.Numbers.js
+02.Fundamentals JS/20.Mid exam/03.Mid Exam Retake/01. Counter Strike.js
+02.Fundamentals JS/20.Mid exam/03.Mid Exam Retake/02. Shoot for the Win.js
+02.Fundamentals JS/20.Mid exam/03.Mid Exam Retake/03. Moving Target.js
+02.Fundamentals JS/20.Mid exam/04.Mid Exam/01. Guinea Pig.js
+02.Fundamentals JS/20.Mid exam/04.Mid Exam/02. Shopping List.js
+02.Fundamentals JS/20.Mid exam/04.Mid Exam/03. Heart Delivery.js
+02.Fundamentals JS/20.Mid exam/05.Mid Exam/01.Bonus Scoring System.js
+02.Fundamentals JS/20.Mid exam/05.Mid Exam/02.MuOnline.js
+02.Fundamentals JS/20.Mid exam/05.Mid Exam/03.Inventory.js
+02.Fundamentals JS/20.Mid exam/06.Mid Exam Retake/01.Black Flag.js
+02.Fundamentals JS/20.Mid exam/06.Mid Exam Retake/02.Treasure Hunt.js
+02.Fundamentals JS/20.Mid exam/06.Mid Exam Retake/03.Man O War.js
+02.Fundamentals JS/20.Mid exam/07.Mid Exam 20.02/01.The biscuit factory.js
+02.Fundamentals JS/20.Mid exam/07.Mid Exam 20.02/02.Numbers.js
+02.Fundamentals JS/20.Mid exam/07.Mid Exam 20.02/03.Phone Shop.js
+02.Fundamentals JS/21.Objects and classes - Lab/01.Person info.js
+02.Fundamentals JS/21.Objects and classes - Lab/02.City.js
+02.Fundamentals JS/21.Objects and classes - Lab/03.Convert to Object.js
+02.Fundamentals JS/21.Objects and classes - Lab/04.Convert to json.js
+02.Fundamentals JS/21.Objects and classes - Lab/05.Cats.js
+02.Fundamentals JS/21.Objects and classes - Lab/06.Songs.js
+02.Fundamentals JS/22.Objects and classes - Exercise/01.Employees.js
+02.Fundamentals JS/22.Objects and classes - Exercise/02.Towns.js
+02.Fundamentals JS/22.Objects and classes - Exercise/03.Store provision.js
+02.Fundamentals JS/22.Objects and classes - Exercise/04.Movies.js
+02.Fundamentals JS/22.Objects and classes - Exercise/05.Inventory.js
+02.Fundamentals JS/22.Objects and classes - Exercise/06.Make a Dictionary.js
+02.Fundamentals JS/22.Objects and classes - Exercise/07.Class Vehicle.js
+02.Fundamentals JS/22.Objects and classes - Exercise/08.Class Storage.js
+02.Fundamentals JS/22.Objects and classes - Exercise/09.Catalogue.js
+02.Fundamentals JS/22.Objects and classes - More Exercise/01.Class Laptop.js
+02.Fundamentals JS/22.Objects and classes - More Exercise/02.Flight Schedule.js
+02.Fundamentals JS/22.Objects and classes - More Exercise/03.School Register.js
+02.Fundamentals JS/22.Objects and classes - More Exercise/04.Browser History.js
+02.Fundamentals JS/22.Objects and classes - More Exercise/05.Sequences.js
+02.Fundamentals JS/24.Associative Arrays - Lab/01.Phone Book.js
+02.Fundamentals JS/24.Associative Arrays - Lab/02.Meetings.js
+02.Fundamentals JS/24.Associative Arrays - Lab/03.Address Book.js
+02.Fundamentals JS/24.Associative Arrays - Lab/04.Storage.js
+02.Fundamentals JS/24.Associative Arrays - Lab/05.School Grades.js
+02.Fundamentals JS/24.Associative Arrays - Lab/06.Word Occurrences.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/01.Word Tracker.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/02.Odd Occurrences.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/03.Piccolo.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/04.Party Time.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/05.Card game.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/06.Company users.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/07.A miner task.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/08.Travel time.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/09.Arena Tier.js
+02.Fundamentals JS/25.Associative Arrays - Exercise/10.Legendary farming.js
+02.Fundamentals JS/25.Associative Arrays - More Exercise/01.Garage.js
+02.Fundamentals JS/25.Associative Arrays - More Exercise/02.Armies.js
+02.Fundamentals JS/25.Associative Arrays - More Exercise/03.Comments.js
+02.Fundamentals JS/25.Associative Arrays - More Exercise/04.Book shelf.js
+02.Fundamentals JS/25.Associative Arrays - More Exercise/05.SoftUni Students.js
+02.Fundamentals JS/27.Text Processing - Lab/01.Print Characters.js
+02.Fundamentals JS/27.Text Processing - Lab/02.Substring.js
+02.Fundamentals JS/27.Text Processing - Lab/03.Censored words.js
+02.Fundamentals JS/27.Text Processing - Lab/04.Count String Occurrences.js
+02.Fundamentals JS/28.Text Processing - Exercise/01.Reveal words.js
+02.Fundamentals JS/28.Text Processing - Exercise/02.Modern Times of #(HashTag).js
+02.Fundamentals JS/28.Text Processing - Exercise/03.Extract file.js
+02.Fundamentals JS/28.Text Processing - Exercise/04.String Substring.js
+02.Fundamentals JS/28.Text Processing - Exercise/05.Replace Repeating Chars.js
+02.Fundamentals JS/28.Text Processing - Exercise/06.Pascal-Case Splitter.js
+02.Fundamentals JS/28.Text Processing - Exercise/07.Cut and Reverse.js
+02.Fundamentals JS/28.Text Processing - Exercise/08.Hard words.js
+02.Fundamentals JS/28.Text Processing - Exercise/09.Password Generator.js
+02.Fundamentals JS/28.Text Processing - Exercise/10.Letters Change Numbers.js
+02.Fundamentals JS/28.Text Processing - More Exercise/01.Value of a String.js
+02.Fundamentals JS/28.Text Processing - More Exercise/02.Serialize String.js
+02.Fundamentals JS/28.Text Processing - More Exercise/03.Deserialize String.js
+02.Fundamentals JS/28.Text Processing - More Exercise/04.Ascii Sumator.js
+02.Fundamentals JS/28.Text Processing - More Exercise/05.Treasure Finder.js
+02.Fundamentals JS/28.Text Processing - More Exercise/06.Melrah Shake.js
+02.Fundamentals JS/28.Text Processing - More Exercise/test.js
+02.Fundamentals JS/30.Regular Expressions - Lab/01.Match Full Name.js
+02.Fundamentals JS/30.Regular Expressions - Lab/02.Match Phone Number.js
+02.Fundamentals JS/30.Regular Expressions - Lab/03.Match Dates.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/01.Furniture.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/02.Race.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/03.SoftUni Bar Income.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/04.Star Enigma.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/05.Nether Realms.js
+02.Fundamentals JS/31.Regular Expressions - Exercise/06.Extract Emails.js
+02.Fundamentals JS/31.Regular Expressions - More Exercise/01.Winning Ticket.js
+02.Fundamentals JS/31.Regular Expressions - More Exercise/02.Rage quit.js
+02.Fundamentals JS/31.Regular Expressions - More Exercise/03.Post office.js
+02.Fundamentals JS/31.Regular Expressions - More Exercise/04.Santas Secret Helper.js
+02.Fundamentals JS/33.Exam preparation/01.Final Exam Retake/01.The Imitation Game.js
+02.Fundamentals JS/33.Exam preparation/01.Final Exam Retake/02.Ad Astra.js
+02.Fundamentals JS/33.Exam preparation/01.Final Exam Retake/03.The Pianist.js
+02.Fundamentals JS/33.Exam preparation/02.Final Exam/01.World Tour.js
+02.Fundamentals JS/33.Exam preparation/02.Final Exam/02.Destination Mapper.js
+02.Fundamentals JS/33.Exam preparation/02.Final Exam/03.Plant Discovery.js
+02.Fundamentals JS/33.Exam preparation/03.Final Exam Retake/01.Secret Chat.js
+02.Fundamentals JS/33.Exam preparation/03.Final Exam Retake/02.Mirror Words.js
+02.Fundamentals JS/33.Exam preparation/03.Final Exam Retake/03.Need for Speed III.js
+02.Fundamentals JS/33.Exam preparation/04.Final Exam/01Password Reset.js
+02.Fundamentals JS/33.Exam preparation/04.Final Exam/02.Fancy Barcodes.js
+02.Fundamentals JS/33.Exam preparation/04.Final Exam/03.Heroes of Code and Logic VII.js
+02.Fundamentals JS/33.Exam preparation/05.Final Exam/01.Activation Keys.js
+02.Fundamentals JS/33.Exam preparation/05.Final Exam/02.Emoji Detector.js
+02.Fundamentals JS/33.Exam preparation/05.Final Exam/03.P!rates.js
+02.Fundamentals JS/37.Practical Exam/1.String manipulator.js
+02.Fundamentals JS/37.Practical Exam/2.Encrypting password.js
+02.Fundamentals JS/37.Practical Exam/3.Wild zoo.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/01. multiply by 2.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/02. student.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/03. excellent.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/04. foreign language.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/05. month.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/06. Theatre.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/07. 1to5.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/08. divisibleby3.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/09. Nto1.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/10. mton.js
+02.Fundamentals JS/5. Basic Syntax, Conditional Statements and Loops Lab/11. sumofodd.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/01. ages.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/02. rounding.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/03. division.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/04. vacation.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/05. leapyear.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/06. printandsum.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/07. triangle.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/08. multiplication.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/09. login.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/10. pyramidofkingdjoser.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - Exercise/11. btcmining.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - More Exercise/01. sortnumbers.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - More Exercise/02. englishname.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - More Exercise/03. nextday.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - More Exercise/04. reversestring.js
+02.Fundamentals JS/6. Basic Syntax, Conditional Statements and Loops - More Exercise/05. distance.js
+02.Fundamentals JS/8.Data Types and Variables/01.Echo Type.js
+02.Fundamentals JS/8.Data Types and Variables/02.Concatenate Names.js
+02.Fundamentals JS/8.Data Types and Variables/03.Right Place.js
+02.Fundamentals JS/8.Data Types and Variables/04.Integer and Float.js
+02.Fundamentals JS/8.Data Types and Variables/05.Amazing Numbers.js
+02.Fundamentals JS/8.Data Types and Variables/06.Gramophone.js
+02.Fundamentals JS/8.Data Types and Variables/07.Required reading.js
+02.Fundamentals JS/8.Data Types and Variables/08.Centuries to Minutes.js
+02.Fundamentals JS/8.Data Types and Variables/09.Special Numbers.js
+02.Fundamentals JS/8.Data Types and Variables/10.Triples of Latin Letters.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/01.Sum Digits.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/02.CharsToString.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/03.TownInfo.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/04.ConvertMeterstoKilometres.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/05.PoundstoDollars.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/06.ReversedChars.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/07.LowerorUpper.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/08.Calculator.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/09.Gladiator.js
+02.Fundamentals JS/9.Data Types and Variables - Exercise/10.SpiceMustFlow.js
