@@ -4,13 +4,13 @@ function cityTaxes(name, population, treasury) {
         population,
         treasury,
         taxRate: 10,
-        collectTaxes: function() {
+        collectTaxes() {
             this.treasury += this.population * this.taxRate;
         },
-        applyGrowth: function(a) {
+        applyGrowth(a) {
             this.population *= 1 + a/100;
         },
-        applyRecession: function(a) {
+        applyRecession(a) {
             this.treasury *= 1 - a/100;
         }
     }
