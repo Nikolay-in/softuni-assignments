@@ -3,7 +3,6 @@ function lockedProfile() {
     buttons.forEach(e => e.addEventListener('click', toggleButton));
 
     function toggleButton(e) {
-        let button = e.target;
         let lockStatus = e.target.parentElement.querySelector('input[type="radio"]:checked').value;
         if (lockStatus == 'unlock') {
             if (e.target.textContent == 'Show more' ) {
