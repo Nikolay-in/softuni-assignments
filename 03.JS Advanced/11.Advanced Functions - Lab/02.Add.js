@@ -1,9 +1,8 @@
 function solution(input) {
     let num = input;
-    function newFunc(n) {
+    return (n) => {
         return num + n;
     }
-    return newFunc;
 }
 
 let add5 = solution(5);
