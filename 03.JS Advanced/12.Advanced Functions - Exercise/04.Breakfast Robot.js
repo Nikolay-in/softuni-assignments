@@ -56,7 +56,7 @@ function solution() {
 
     return (input) => {
         let tokens = input.split(' ');
-        return(commands[tokens.shift()](...tokens));
+        return commands[tokens.shift()](...tokens);
     }
 }
 
