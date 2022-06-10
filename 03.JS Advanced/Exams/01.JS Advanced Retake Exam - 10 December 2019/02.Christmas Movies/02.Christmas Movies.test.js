@@ -9,7 +9,6 @@ describe("Tests:", () => {
 
     describe("Instantiation", function() {
         it("If props exist", function() {
-            let christmas = new ChristmasMovies();
             expect(christmas.movieCollection).to.eql([]);
 			expect(christmas.movieCollection.length).to.equal(0);
 			expect(christmas.watched).to.eql({});
