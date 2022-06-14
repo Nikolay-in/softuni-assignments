@@ -33,3 +33,4 @@ const bookSelection = {
     return resultArr;
   },
 };
+module.exports = bookSelection;
