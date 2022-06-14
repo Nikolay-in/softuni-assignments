@@ -87,27 +87,18 @@ function solve() {
         let li = e.target.parentElement.parentElement;
         deletedMails.appendChild(li);
 
-        if (e.target.parentElement.parentElement.children.length == 4) {
-            e.target.parentElement.parentElement.children[2].remove();
-        }
-
-        //New To:
-        let newToText = li.children[1].textContent;
-        newToText = newToText.replace('Recipient Name', 'To');
-        let toSpan = createTag('span', newToText);
-        let toTitle = createTag('span', li.children[0].textContent);
-
-        li.children[0].remove();
-        li.children[0].remove();
-        if (li.children.length > 2) {
+        if (li.children.length == 4) {
+            //New To:
+            let newToText = li.children[1].textContent;
+            newToText = newToText.replace('Recipient Name', 'To');
+            let toSpan = createTag('span', newToText);
+            let titleSpan = createTag('span', li.children[0].textContent);
+    
             li.children[0].remove();
-        }
-        if (e.target.parentElement.children.length == 2) {
+            li.children[0].remove();
+            li.children[0].remove();
             e.target.parentElement.before(toSpan);
-            e.target.parentElement.before(toTitle);
-        } else {
-            e.target.parentElement.before(toTitle);
-            e.target.parentElement.before(toSpan);
+            e.target.parentElement.before(titleSpan);
         }
         e.target.parentElement.remove();
     }
