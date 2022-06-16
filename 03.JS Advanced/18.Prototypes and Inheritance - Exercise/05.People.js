@@ -1,6 +1,9 @@
 function solution() {
     class Employee {
         constructor(name, age) {
+            if (new.target == Employee) {
+                throw new Error('Cannot make instance of abstract class Employee.');
+            }
             this.name = name;
             this.age = age;
             this.salary = 0;
