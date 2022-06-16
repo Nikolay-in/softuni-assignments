@@ -82,7 +82,7 @@ describe("Tests:", function() {
             expect(pp.toString()).to.eq('Package: Consultation\n- Value (excl. VAT): 10.5\n- Value (VAT 20%): 12.6');
         });
 
-        it('change all to valid values fuorth', () => {
+        it('change all to valid values fourth', () => {
             pp.name = 'Consultation';
             pp.value = 10;
             pp.VAT = 20.5;
