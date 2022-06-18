@@ -25,7 +25,7 @@ function solve() {
         el.className = className;
     }
     return el;
-}
+  }
 
   function onPublish() {
     if (title.value && category.value && postContent.value) {
