@@ -3,5 +3,8 @@
 03.JS Advanced/*/package.json
 03.JS Advanced/*/node_modules
 03.JS Advanced/*/package-lock.json
+test/
 test.js
 .gitignore
+JS-interview-questions.md.txt
+promise async await.js
