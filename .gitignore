@@ -5,5 +5,12 @@
 03.JS Advanced/*/package-lock.json
 test/
 test.js
-.gitignore
-JS-interview-questions.md.txt
+04.JS Applications/01.Asynchronous Programming - Exercise/server/server.js
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/advanced.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/blog.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/bus.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/collections.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/cookbook.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/forecaster.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/messenger.json
+04.JS Applications/01.Asynchronous Programming - Exercise/server/data/phonebook.json
