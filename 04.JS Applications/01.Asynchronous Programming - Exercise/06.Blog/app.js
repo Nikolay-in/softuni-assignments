@@ -9,8 +9,8 @@ function attachEvents() {
 
     //Add event listeners
     btnLoadPosts.addEventListener('click', handleLoadPosts);
-    btnViewPost.addEventListener('click', handleViewPost)
-
+    btnViewPost.addEventListener('click', handleViewPost);
+    let commonData;
 
     function handleLoadPosts() {
         //Get posts
@@ -19,6 +19,8 @@ function attachEvents() {
         .then(data => addPosts(data));
 
         function addPosts(data) {
+            commonData = data;
+
             postsSelect.innerHTML = '';
             
             for (let [id, postInfo] of Object.entries(data)) {
@@ -26,9 +28,9 @@ function attachEvents() {
                 let option = document.createElement('option');
                 option.value = id;
                 option.textContent = postInfo.title;
+                option.dataset.body = postInfo.body;
                 postsSelect.appendChild(option);
             }
-            handleViewPost();
         }
     }
 
@@ -36,13 +38,9 @@ function attachEvents() {
         //Get post id
         let selectedPostId = document.getElementById('posts').value;
 
-        //Fetch post data
-        fetch('http://localhost:3030/jsonstore/blog/posts/' + selectedPostId)
-        .then(res => res.json())
-        .then(data => {
-            postTitle.textContent = data.title;
-            postContent.textContent = data.body;
-        });
+        postTitle.textContent = commonData[selectedPostId].title;
+        postContent.textContent = commonData[selectedPostId].body;
+
 
         //Fetch comments
         fetch('http://localhost:3030/jsonstore/blog/comments')
@@ -54,7 +52,7 @@ function attachEvents() {
             let commentsUl = document.getElementById('post-comments');
             commentsUl.innerHTML = '';
             
-            for (let [commentId, commentInfo] of Object.entries(data)) {
+            for (let [commentInfo] of Object.entries(data)) {
                 if (commentInfo.postId == selectedPostId) {
                     //Create comment li
                     let li = document.createElement('li');
