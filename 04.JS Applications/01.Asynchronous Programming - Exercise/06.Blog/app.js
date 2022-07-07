@@ -3,6 +3,9 @@ function attachEvents() {
     let postsSelect = document.querySelector('select#posts');
     let btnLoadPosts = document.getElementById('btnLoadPosts');
     let btnViewPost = document.getElementById('btnViewPost');
+    let postTitle = document.getElementById('post-title');
+    let postContent = document.getElementById('post-body');
+
 
     //Add event listeners
     btnLoadPosts.addEventListener('click', handleLoadPosts);
@@ -18,13 +21,14 @@ function attachEvents() {
         function addPosts(data) {
             postsSelect.innerHTML = '';
             
-            for ([id, postInfo] of Object.entries(data)) {
+            for (let [id, postInfo] of Object.entries(data)) {
                 //Create option
                 let option = document.createElement('option');
                 option.value = id;
                 option.textContent = postInfo.title;
                 postsSelect.appendChild(option);
             }
+            handleViewPost();
         }
     }
 
@@ -35,28 +39,22 @@ function attachEvents() {
         //Fetch post data
         fetch('http://localhost:3030/jsonstore/blog/posts/' + selectedPostId)
         .then(res => res.json())
-        .then(data => handlePostInfo(data));
+        .then(data => {
+            postTitle.textContent = data.title;
+            postContent.textContent = data.body;
+        });
 
         //Fetch comments
         fetch('http://localhost:3030/jsonstore/blog/comments')
         .then(res => res.json())
         .then(data => handleComments(data));
 
-        //Insert post info
-        function handlePostInfo(data) {
-            let postTitle = document.getElementById('post-title');
-            postTitle.textContent = data.title;
-
-            let postContent = document.getElementById('post-body');
-            postContent.textContent = data.body;
-        }
-
         //Handle comments
         function handleComments(data) {
             let commentsUl = document.getElementById('post-comments');
             commentsUl.innerHTML = '';
             
-            for ([commentId, commentInfo] of Object.entries(data)) {
+            for (let [commentId, commentInfo] of Object.entries(data)) {
                 if (commentInfo.postId == selectedPostId) {
                     //Create comment li
                     let li = document.createElement('li');
@@ -67,7 +65,6 @@ function attachEvents() {
             }
         }
     }
-
 }
 
 attachEvents();
