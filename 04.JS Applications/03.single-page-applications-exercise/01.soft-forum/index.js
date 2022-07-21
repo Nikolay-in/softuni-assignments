@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             nickName.appendChild(p2);
 
             let span = document.createElement('span');
-            span.textContent = data.userName;
+            span.textContent = data.username;
             p2.appendChild(span);
 
         });
@@ -80,8 +80,8 @@ postBtn.addEventListener('click', async (e) => {
     if (title.value && username.value && text.value) {
         let postObject = {
             "title": title.value,
-            "userName": username.value,
-            "postContent": text.value
+            "username": username.value,
+            "content": text.value
         }
 
         let response = await fetch('http://localhost:3030/jsonstore/collections/myboard/posts', {
@@ -95,22 +95,22 @@ postBtn.addEventListener('click', async (e) => {
         if (response.ok) {
             let data = await response.json();
             main.innerHTML += `<div class="topic-container">
-            <div class="topic-name-wrapper">
-                <div class="topic-name">
-                    <a href="#" class="normal" id="${data._id}">
-                        <h2>${data.title}</h2>
-                    </a>
-                    <div class="columns">
-                        <div>
-                            <p>Date: <time>2020-10-10T12:08:28.451Z</time></p>
-                            <div class="nick-name">
-                                <p>Username: <span>${data.userName}</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>`;
+                                        <div class="topic-name-wrapper">
+                                            <div class="topic-name">
+                                                <a href="#" class="normal" id="${data._id}">
+                                                    <h2>${data.title}</h2>
+                                                </a>
+                                                <div class="columns">
+                                                    <div>
+                                                        <p>Date: <time>2020-10-10T12:08:28.451Z</time></p>
+                                                        <div class="nick-name">
+                                                            <p>Username: <span>${data.username}</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>`;
 
         } else {
             alert(response.statusText);

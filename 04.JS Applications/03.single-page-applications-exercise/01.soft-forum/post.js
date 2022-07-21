@@ -8,9 +8,9 @@ export async function post(id) {
         let data = await response.json();
         const post = `<div class="header">
                 <img src="./static/profile.png" alt="avatar">
-                <p><span>${data.userName}</span> posted on <time>2020-10-10 12:08:28</time></p>
+                <p><span>${data.username}</span> posted on <time>2020-10-10 12:08:28</time></p>
 
-                <p class="post-content">${data.postContent}</p>
+                <p class="post-content">${data.content}</p>
             </div>`;
 
         let comments = [];
