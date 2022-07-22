@@ -48,7 +48,7 @@ export const isLogged = () => {
 
 export const onLogout = (ctx) => {
     get('/users/logout')
-    sessionStorage.removeItem('userData');
+    sessionStorage.clear();
     ctx.setNav('dashboard')
     ctx.page.redirect('/');
 }

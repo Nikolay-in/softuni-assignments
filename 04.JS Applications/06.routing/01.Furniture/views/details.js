@@ -1,11 +1,7 @@
 import { html } from '../node_modules/lit-html/lit-html.js';
 import { get } from '../controllers/api.js';
 
-export async function showDetail(ctx) {
-    // Get info
-    const product = await get('/data/catalog/' + ctx.params.id);
-
-    const template = html`
+const template = (product, ctx) => html`
         <div class="row space-top">
             <div class="col-md-12">
                 <h1>Furniture Details</h1>
@@ -33,7 +29,11 @@ export async function showDetail(ctx) {
                 </div>` : ''
                 }
             </div>
-        </div>`
+        </div>`;
 
-    ctx.render(template);
+export async function showDetail(ctx) {
+    // Get info
+    const product = await get('/data/catalog/' + ctx.params.id);
+
+    ctx.render(template(product, ctx));
 }
