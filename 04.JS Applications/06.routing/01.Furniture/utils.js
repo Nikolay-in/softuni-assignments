@@ -6,7 +6,8 @@ const buttons = {
     'create' : 'createLink',
     'logout' : 'logoutBtn',
     'login' : 'loginLink',
-    'register' : 'registerLink'
+    'register' : 'registerLink',
+    'my-publications': 'profileLink'
 }
 
 const nav = document.querySelector('nav');
@@ -18,6 +19,7 @@ export const setNav = (active) => {
         navbar = html`<a id="catalogLink" href="/">Dashboard</a>
 <div id="user">
     <a id="createLink" href="/create">Create Furniture</a>
+    <a id="profileLink" href="/my-furniture">My Publications</a>
     <a id="logoutBtn" href="/logout">Logout</a>
 </div>`
     } else {

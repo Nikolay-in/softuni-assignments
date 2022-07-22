@@ -6,6 +6,7 @@ import { loginView } from './views/login.js';
 import { registerView } from './views/register.js';
 import { showDetail } from './views/details.js';
 import { editView } from './views/edit.js';
+import { showMyFurniture } from './views/my-furniture.js';
 
 import { isLogged, setNav, onLogout } from './utils.js';
 import { delItem } from './controllers/deleteItem.js';
@@ -21,6 +22,7 @@ page('/create', createView);
 page('/login', loginView);
 page('/logout', onLogout);
 page('/register', registerView);
+page('/my-furniture', showMyFurniture);
 page('/catalog/:id', showDetail);
 page('/edit/:id', editView);
 page('/delete/:id', delItem);
