@@ -120,6 +120,12 @@ export async function createView(ctx) {
         const formData = new FormData(form);
 
         let inputs = Array.from(form.querySelectorAll('input'));
+
+        inputs.map(el => {
+            if (el.value == '' && el.name != 'material') {
+                el.classList.add('is-invalid');
+            }
+        })
         
         inputs = inputs.filter(el => el.classList.contains('is-invalid'));
 

@@ -304,7 +304,7 @@ describe('E2E tests', function () {
         });
 
         it('Create does NOT work with empty fields', async () => {
-            const { post } = await handle(endpoints.create);
+            const { post } = await handle(endpoints.catalog);
             const isCalled = post().isHandled;
 
             await page.click('text=Create Furniture');
